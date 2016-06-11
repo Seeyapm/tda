@@ -41,7 +41,7 @@ public class LocationTweetMR {
 			Tweet tweet = new Tweet();
 			String text = inputArray[3].replace("\"", "'").trim();
 			String user = inputArray[13].trim();
-
+/*mADE SOME CHANGES*/
 			tweet.setText(text);
 			tweet.setUser(user);
 			context.write(location, tweet);
